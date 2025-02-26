@@ -1,0 +1,29 @@
+
+* {
+    background-color: cyan;
+}
+h1 {
+    color:rgb(255, 0, 128); 
+    font-size: 50px;
+}
+
+.primera {
+    background-color: rgb(33, 168, 69);
+    color: rgb(21, 21, 18);
+    padding: 30px;
+    border: 5px rgb(35, 17, 231) solid ;
+    margin: 30px;
+}
+
+#segunda  {
+    background-color: rgb(124, 88, 158);
+    color: yellow;
+    padding: 50px 5px;
+    border: 5px red solid ;
+    margin: 30px;
+}
+a {
+    color:brown;
+    background-color: azure;
+}
+

@@ -1,0 +1,22 @@
+
+
+.cuadrado1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(130, 130, 134);
+    border: 3px black solid;
+}
+
+.circulo {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+    border-width: 3px;
+    border-style:solid;
+    border-color: brown;
+    border-radius: 50%;
+    position:sticky;
+    top: 100px;
+    left: 100px;
+
+}

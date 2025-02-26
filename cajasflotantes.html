@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    .caja {
+        width: 50%;
+        float: left;
+        padding: 50px;
+        text-align: center;
+    }
+    .caja.c1 {
+        background-color: yellow;
+    }
+    .caja.c2 {
+        background-color: blue;
+    }
+    .contenedor::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .box {
+        width: 33.33%;
+        float:left;
+        padding: 30px;
+    }
+</style>
+</head>
+<body>
+
+<h2>Grid of Boxes</h2>
+<p>Float boxes side by side:</p>
+
+<div class="contenedor">
+  <div class="caja c1">
+    <h1>Caja 1</h1>
+    <p>Some text inside the box.</p>
+  </div>
+  <div class="caja c2">
+    <h1>Caja 2</h1>
+    <p>Some text inside the box.</p>
+  </div>
+</div>
+
+<p><strong>Note:</strong> Here, we use the clearfix hack to take care of the layout flow. 
+We also use the box-sizing property to make sure that the box doesn't break due to extra padding. Try to remove this code to see the effect.</p>
+
+
+<div class="contenedor2">
+    <div class="box" style="background-color: thistle;">
+      <h1>Caja 1</h1>
+      <p>Some text inside the box.</p>
+    </div>
+    <div class="box" style="background-color: rgb(214, 166, 214);">
+      <h1>Caja 2</h1>
+      <p>Some text inside the box.</p>
+    </div>
+    <div class="box" style="background-color: rgb(210, 121, 210);">
+        <h1>Caja 2</h1>
+        <p>Some text inside the box.</p>
+      </div>
+  </div>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metodología BEM</title>
+    <style>
+        .menu {
+            justify-content: center;
+            background-color: darkblue;
+            padding: 5px;
+            display: flex;
+        }
+        .menu__opciones {
+            font-size: 30px;
+            color: white;
+            text-decoration: none;
+            padding: 20px;
+            border: 1px solid white;
+            margin: 10px;
+            border-radius: 10px;
+            background-color: cadetblue;
+        }
+        .menu__opciones:hover {
+            background-color: rgb(13, 107, 79);
+            color: yellow;
+        }
+        .opcion--contacto {
+            background-color: red;
+        }
+        .menu--dos {
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="menu">
+        <a class="menu__opciones" href="#">Inicio</a>
+        <a class="menu__opciones" href="#">Productos</a>
+        <a class="menu__opciones" href="#">Quienes Somos</a>
+        <a class="menu__opciones opcion--contacto" href="#">Contacto</a>
+    </nav>
+
+    <br>
+
+    <nav class="menu menu--dos">
+        <a class="menu__opciones" href="#">Inicio</a>
+        <a class="menu__opciones" href="#">Productos</a>
+        <a class="menu__opciones" href="#">Quienes Somos</a>
+        <a class="menu__opciones opcion--contacto" href="#">Contacto</a>
+    </nav>
+
+
+
+</body>
+
+</html>

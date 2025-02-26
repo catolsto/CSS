@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .contenedor {
+            background-color: DodgerBlue;
+            width: 600px;
+            height: 300px;
+            padding: 10px;
+            display: flex;
+            flex-direction:row;
+            
+        }
+        .contenedor > div {
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 10px;
+            font-size: 30px;
+            height: 30px;
+        }
+        .contenedor > .i4 {
+            background-color: rgb(95, 226, 43);
+            order: 2 !important;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>Titulo 1</h1>
+    <div class="contenedor">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div class="i4">4</div>
+    </div>
+
+
+
+</body>
+</html>

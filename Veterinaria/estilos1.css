@@ -1,0 +1,132 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background: white;
+    margin: 0px;
+}
+header {
+    text-align: center;
+}
+header img {
+    width: 100%;
+}
+nav {
+    background: #242697;
+    color: white;
+    padding: 10px 0 10px 0;
+    margin-top: 0px;
+}
+nav ul li {
+    display: inline;
+    margin: 0 25px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+a {
+    padding: 10px; 
+}
+a:hover{
+    background-color: #2d9ec0;
+    padding: 10px;
+    border-radius: 10px;
+}
+section {
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px;
+}
+form input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    font-size: 20px;
+    width: 95%;
+    padding: 10px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 0;
+}
+
+#tienda {
+    background-color: rgb(243, 236, 236);
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    width: 70%; /* o el ancho que necesites */
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+}
+td {
+    text-align: center;
+    padding: 10px;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    width: 200px; /* Ajusta el tamaño de las imágenes según necesites */
+}
+.productos {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+}
+#btn_compra {
+    background-color: #242697;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    width: 200px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 6px 9px 20px -1px rgba(130,113,130,1);
+}
+#btn_compra:hover{
+    background-color: #2d9ec0;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contenedor {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.contenedor .foto {
+    flex-flow: wrap;
+}
+.contenedor .foto img {
+    border-radius: 50%;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto; /* Empuja el footer hacia abajo */
+}

@@ -1,0 +1,114 @@
+
+        /* Estilos generales */
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Nunito", serif;
+        }
+
+        /* Fondo con degradado */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url("recursos/fondo.jpg");
+            background-size: cover;
+        }
+
+        /* Contenedor del formulario */
+        .login-container {
+            background: white;
+            margin: 150px;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 550px;
+            text-align: center;
+        }
+
+        /* Título */
+        .login-container h2 {
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+
+        /* Campos de entrada */
+        .campos {
+            position: relative;
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .campos input {
+            width: 90%;
+            padding: 10px;
+            padding-left: 40px;
+            border: 1px solid #ccc;
+            border-radius: 25px;
+            outline: none;
+        }
+
+        /* Iconos dentro del input */
+        .campos .icono {
+            position: absolute;
+            left: 15px;
+            top: 12px;
+            color: darkgrey;
+        }
+
+        /* Botón de Login */
+        .login-btn {
+            display: inline-block;
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 25px;
+            background: red;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .login-btn:hover {
+            opacity: 0.5;
+        }
+
+        /* Redes sociales */
+        .iconos-sociales {
+            margin-top: 20px;
+        }
+
+        .iconos-sociales a {
+            display: inline-block;
+            margin: 5px;
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            background: #ddd;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        .iconos-sociales .facebook { background: #3b5998; }
+        .iconos-sociales .twitter { background: #1da1f2; }
+        .iconos-sociales .google { background: #db4437; }
+
+        .iconos-sociales a:hover {
+            opacity: 0.5;
+        }
+
+        /* Enlaces */
+        .enlaces {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+        .enlaces a {
+            color: #182987;
+            text-decoration: none;
+        }
+        .enlaces a:hover {
+            text-decoration: underline;
+        }

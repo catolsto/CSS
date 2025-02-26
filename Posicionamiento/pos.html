@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de Position en CSS</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            max-width: 600px;
+            border: 2px solid #333;
+            padding: 20px;
+            position: relative; /* Esto permite que los hijos con "absolute" se posicionen respecto a este */
+        }
+
+        .box {
+            width: 150px;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .static {
+            background: gray;
+            position: static; /* Valor por defecto */
+        }
+
+        .relative {
+            background: blue;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+
+        .absolute {
+            background: red;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+
+        .fixed {
+            background: green;
+            position: fixed;
+            top: 10px;
+            right: 10px;
+        }
+
+        .sticky {
+            background: orange;
+            position: sticky;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Ejemplo de Position en CSS</h2>
+
+    <div class="container">
+        <div class="box static">Static</div>
+        <div class="box relative">Relative</div>
+        <div class="box absolute">Absolute</div>
+
+    </div>
+
+    <div class="box fixed">Fixed</div>
+    <div class="box sticky">Sticky (haz scroll)</div>
+
+    <p style="margin-top: 500px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos culpa placeat numquam quam quisquam, non, quaerat repellendus nulla nam corporis assumenda dolorum provident cumque, illo architecto amet! Fuga, suscipit et!</p>
+    <p style="margin-top: 500px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima similique necessitatibus architecto aliquid unde eos. Eum optio, recusandae numquam harum reiciendis eos voluptates ut, magnam quidem veniam minus quo placeat?</p>
+</body>
+</html>

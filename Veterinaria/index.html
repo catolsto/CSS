@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria</title>
+    <link rel="stylesheet" href="estilos1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <img src="banner-principal.jpg" alt="Banner Huellitas">
+        <nav>
+            <ul>
+                <li><a href="#inicio"><i class="fa fa-home"></i> Inicio</a></li>
+                <li><a href="#nosotros"><i class="fa fa-user"></i> Quiénes Somos</a></li>
+                <li><a href="#tienda"><i class="fa fa-shopping-cart"></i> Tienda</a></li>
+                <li><a href="#contacto"><i class='fa fa-phone'></i> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Bienvenidos a Veterinaria Huellitas</h2>
+        <p>Brindamos el mejor cuidado para tu mascota con amor y profesionalismo.</p>
+    </section>
+    
+    <section id="nosotros">
+        <h2>Quiénes Somos</h2>
+        <p>Somos un equipo de veterinarios dedicados a la salud y bienestar de tu mascota.</p>
+        <div class="contenedor">
+            <div class="foto">
+                <img src="usuario-1.jpg" alt="Usuario 1" >
+            </div>
+            <div class="foto">
+                <img src="usuario-2.jpg" alt="Usuario 2" >
+            </div>
+        </div>
+    </section>
+    
+    <div id="tienda">
+        <h2>Nuestra Tienda</h2>
+        <p>Explora nuestros productos para el cuidado de tu mascota.</p>
+        <table>
+            <tr>
+                <td>
+                    <img src="producto1.jpg" alt="producto1">
+                    <span class="productos">Correa de Paseo</span>
+                    <button id="btn_compra"><i class="fa fa-shopping-cart"></i> Comprar</button>
+                </td>
+                <td>
+                    <img src="producto2.jpg" alt="producto2">
+                    <span class="productos">Alimento Balanceado</span>
+                    <button id="btn_compra"><i class="fa fa-shopping-cart"></i> Comprar</button>
+                </td>
+                <td>
+                    <img src="producto3.jpg" alt="producto3">
+                    <span class="productos">Bolsas de Popo</span>
+                    <button id="btn_compra"><i class="fa fa-shopping-cart"></i> Comprar</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Teléfono: 123-456-789</p>
+        <p>Email: contacto@veterinariapetcare.com</p>
+
+        <form action="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            
+            <button type="submit">Enviar</button>
+        </form>
+
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Veterinaria Huellitas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
